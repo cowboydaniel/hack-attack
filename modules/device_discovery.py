@@ -20,19 +20,20 @@ from typing import List, Dict, Optional, Tuple, Any, Union
 GUI_ENABLED = True
 try:
     # Core Qt imports
-    from PyQt6.QtCore import QThread, pyqtSignal, Qt, QSize
-    from PyQt6.QtGui import QIcon, QFont, QColor, QAction
+    from PySide6.QtCore import QThread, Signal as pyqtSignal, Qt, QSize
+    from PySide6.QtGui import QIcon, QFont, QColor, QPalette, QAction
     
     # Widget imports
-    from PyQt6.QtWidgets import (
+    from PySide6.QtWidgets import (
         QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
         QPushButton, QTreeWidget, QTreeWidgetItem, QTabWidget, QLabel,
         QStatusBar, QMessageBox, QFileDialog, QTableWidget, QTableWidgetItem,
-        QLineEdit, QProgressBar, QHeaderView, QStyle, QMenu
+        QLineEdit, QProgressBar, QHeaderView, QStyle, QMenu, QComboBox, QTextEdit, QSplitter,
+        QFormLayout, QGroupBox, QCheckBox, QDialog, QDialogButtonBox
     )
     
     # Additional Qt modules
-    from PyQt6 import QtCore, QtGui, QtWidgets
+    from PySide6 import QtCore, QtGui, QtWidgets
     
     # Don't create QApplication here, just verify imports
     GUI_ENABLED = True

@@ -44,9 +44,9 @@ except ImportError:
     logger.warning("Scapy not available. Please install with: pip install scapy")
 
 # GUI Dependencies
-from PyQt6.QtCore import QThread, pyqtSignal, Qt, QSize, QTimer, pyqtSlot, QMetaObject, Q_ARG
-from PyQt6.QtGui import QIcon, QFont, QColor, QAction, QTextCursor
-from PyQt6.QtWidgets import (
+from PySide6.QtCore import QThread, Signal as pyqtSignal, Qt, QSize, QTimer, Slot as pyqtSlot, QMetaObject, Q_ARG
+from PySide6.QtGui import QIcon, QFont, QColor, QAction, QTextCursor
+from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout,
     QPushButton, QTreeWidget, QTreeWidgetItem, QTabWidget, QLabel,
     QStatusBar, QMessageBox, QFileDialog, QTableWidget, QTableWidgetItem,
@@ -315,6 +315,13 @@ class CaptureThread(QThread):
             try:
                 logger.info("Starting sniffer thread...")
                 self.sniffer.start()
+                
+                # Small delay to ensure sniffer has started
+                time.sleep(0.5)
+                
+                if not hasattr(self.sniffer, 'running') or not self.sniffer.running:
+                    raise RuntimeError("Sniffer failed to start properly")
+                    
                 logger.info("Sniffer thread started successfully")
                 
                 # Keep the thread alive while capturing
@@ -344,8 +351,43 @@ class CaptureThread(QThread):
     def stop(self):
         """Stop the capture thread."""
         self._is_running = False
-        if self.sniffer:
-            self.sniffer.stop()
+        
+        # Clear the capture active flag
+        if hasattr(self.analyzer, 'capture_active'):
+            self.analyzer.capture_active.clear()
+        
+        # Give the capture loop a moment to notice the stop request
+        time.sleep(0.1)
+        
+        if hasattr(self, 'sniffer') and self.sniffer is not None:
+            try:
+                # Check if sniffer is still running
+                if hasattr(self.sniffer, 'running') and self.sniffer.running:
+                    logger.debug("Stopping sniffer...")
+                    try:
+                        # Try the standard stop method first
+                        self.sniffer.stop()
+                    except Exception as e:
+                        logger.warning(f"Standard stop failed: {e}")
+                        # If standard stop fails, try to close the socket directly
+                        if hasattr(self.sniffer, 'run_socket') and self.sniffer.run_socket:
+                            try:
+                                self.sniffer.run_socket.close()
+                            except Exception as e2:
+                                logger.warning(f"Could not close socket: {e2}")
+                    
+                    # Additional check to ensure sniffer is stopped
+                    if hasattr(self.sniffer, 'running') and self.sniffer.running:
+                        logger.warning("Sniffer still running after stop attempt")
+                    else:
+                        logger.debug("Sniffer stopped successfully")
+                else:
+                    logger.debug("Sniffer was not running")
+                    
+            except Exception as e:
+                logger.error(f"Error in sniffer stop sequence: {e}")
+        
+        # Wait for the thread to finish
         self.wait()
 
 
