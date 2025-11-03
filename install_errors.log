@@ -1,0 +1,590 @@
+2025-05-28 18:25:25,247 - INFO - Starting package installation from /home/outbackelectronics/Hack_Attack/requirements.txt
+2025-05-28 18:25:25,247 - INFO - Found 88 packages to install
+2025-05-28 18:25:25,247 - INFO - Processing package 1/88: python-dotenv>=0.19.0
+2025-05-28 18:25:25,247 - INFO - Installing python-dotenv>=0.19.0...
+2025-05-28 18:25:27,454 - INFO - Successfully installed python-dotenv>=0.19.0
+2025-05-28 18:25:27,454 - INFO - Processing package 2/88: requests>=2.26.0
+2025-05-28 18:25:27,454 - INFO - Installing requests>=2.26.0...
+2025-05-28 18:25:29,541 - INFO - Successfully installed requests>=2.26.0
+2025-05-28 18:25:29,542 - INFO - Processing package 3/88: colorama>=0.4.4
+2025-05-28 18:25:29,542 - INFO - Installing colorama>=0.4.4...
+2025-05-28 18:25:31,717 - INFO - Successfully installed colorama>=0.4.4
+2025-05-28 18:25:31,717 - INFO - Processing package 4/88: click>=8.0.0
+2025-05-28 18:25:31,717 - INFO - Installing click>=8.0.0...
+2025-05-28 18:25:33,820 - INFO - Successfully installed click>=8.0.0
+2025-05-28 18:25:33,820 - INFO - Processing package 5/88: rich>=10.0.0
+2025-05-28 18:25:33,820 - INFO - Installing rich>=10.0.0...
+2025-05-28 18:25:36,027 - INFO - Successfully installed rich>=10.0.0
+2025-05-28 18:25:36,028 - INFO - Processing package 6/88: PyYAML>=6.0
+2025-05-28 18:25:36,028 - INFO - Installing PyYAML>=6.0...
+2025-05-28 18:25:38,502 - INFO - Successfully installed PyYAML>=6.0
+2025-05-28 18:25:38,502 - INFO - Processing package 7/88: python-dateutil>=2.8.2
+2025-05-28 18:25:38,503 - INFO - Installing python-dateutil>=2.8.2...
+2025-05-28 18:25:41,191 - INFO - Successfully installed python-dateutil>=2.8.2
+2025-05-28 18:25:41,191 - INFO - Processing package 8/88: pytz>=2021.3
+2025-05-28 18:25:41,191 - INFO - Installing pytz>=2021.3...
+2025-05-28 18:25:43,836 - INFO - Successfully installed pytz>=2021.3
+2025-05-28 18:25:43,836 - INFO - Processing package 9/88: cryptography>=3.4.7
+2025-05-28 18:25:43,836 - INFO - Installing cryptography>=3.4.7...
+2025-05-28 18:25:46,364 - INFO - Successfully installed cryptography>=3.4.7
+2025-05-28 18:25:46,365 - INFO - Processing package 10/88: paramiko>=2.7.2
+2025-05-28 18:25:46,365 - INFO - Installing paramiko>=2.7.2...
+2025-05-28 18:25:48,623 - INFO - Successfully installed paramiko>=2.7.2
+2025-05-28 18:25:48,623 - INFO - Processing package 11/88: pycryptodome>=3.12.0
+2025-05-28 18:25:48,624 - INFO - Installing pycryptodome>=3.12.0...
+2025-05-28 18:25:52,287 - INFO - Successfully installed pycryptodome>=3.12.0
+2025-05-28 18:25:52,287 - INFO - Processing package 12/88: pyopenssl>=21.0.0
+2025-05-28 18:25:52,288 - INFO - Installing pyopenssl>=21.0.0...
+2025-05-28 18:25:54,613 - INFO - Successfully installed pyopenssl>=21.0.0
+2025-05-28 18:25:54,613 - INFO - Processing package 13/88: pynacl>=1.5.0
+2025-05-28 18:25:54,613 - INFO - Installing pynacl>=1.5.0...
+2025-05-28 18:25:56,808 - INFO - Successfully installed pynacl>=1.5.0
+2025-05-28 18:25:56,808 - INFO - Processing package 14/88: pyjwt>=2.3.0
+2025-05-28 18:25:56,809 - INFO - Installing pyjwt>=2.3.0...
+2025-05-28 18:25:59,173 - INFO - Successfully installed pyjwt>=2.3.0
+2025-05-28 18:25:59,173 - INFO - Processing package 15/88: scapy>=2.4.5
+2025-05-28 18:25:59,173 - INFO - Installing scapy>=2.4.5...
+2025-05-28 18:26:01,656 - INFO - Successfully installed scapy>=2.4.5
+2025-05-28 18:26:01,656 - INFO - Processing package 16/88: python-nmap>=0.7.1
+2025-05-28 18:26:01,656 - INFO - Installing python-nmap>=0.7.1...
+2025-05-28 18:26:04,159 - INFO - Successfully installed python-nmap>=0.7.1
+2025-05-28 18:26:04,159 - INFO - Processing package 17/88: pyshark>=0.4.3
+2025-05-28 18:26:04,159 - INFO - Installing pyshark>=0.4.3...
+2025-05-28 18:26:07,157 - INFO - Successfully installed pyshark>=0.4.3
+2025-05-28 18:26:07,157 - INFO - Processing package 18/88: impacket>=0.9.24
+2025-05-28 18:26:07,157 - INFO - Installing impacket>=0.9.24...
+2025-05-28 18:26:15,889 - INFO - Successfully installed impacket>=0.9.24
+2025-05-28 18:26:15,890 - INFO - Processing package 19/88: scapy-http>=1.8.2
+2025-05-28 18:26:15,890 - INFO - Installing scapy-http>=1.8.2...
+2025-05-28 18:26:18,744 - INFO - Successfully installed scapy-http>=1.8.2
+2025-05-28 18:26:18,744 - INFO - Processing package 20/88: dpkt>=1.9.7
+2025-05-28 18:26:18,744 - INFO - Installing dpkt>=1.9.7...
+2025-05-28 18:26:22,028 - INFO - Successfully installed dpkt>=1.9.7
+2025-05-28 18:26:22,028 - INFO - Processing package 21/88: python-whois>=0.8.0
+2025-05-28 18:26:22,029 - INFO - Installing python-whois>=0.8.0...
+2025-05-28 18:26:25,420 - INFO - Successfully installed python-whois>=0.8.0
+2025-05-28 18:26:25,420 - INFO - Processing package 22/88: dnspython>=2.1.0
+2025-05-28 18:26:25,420 - INFO - Installing dnspython>=2.1.0...
+2025-05-28 18:26:27,973 - INFO - Successfully installed dnspython>=2.1.0
+2025-05-28 18:26:27,973 - INFO - Processing package 23/88: beautifulsoup4>=4.10.0
+2025-05-28 18:26:27,973 - INFO - Installing beautifulsoup4>=4.10.0...
+2025-05-28 18:26:30,530 - INFO - Successfully installed beautifulsoup4>=4.10.0
+2025-05-28 18:26:30,531 - INFO - Processing package 24/88: lxml>=4.6.3
+2025-05-28 18:26:30,531 - INFO - Installing lxml>=4.6.3...
+2025-05-28 18:26:33,187 - INFO - Successfully installed lxml>=4.6.3
+2025-05-28 18:26:33,187 - INFO - Processing package 25/88: requests-html>=0.10.0
+2025-05-28 18:26:33,187 - INFO - Installing requests-html>=0.10.0...
+2025-05-28 18:26:38,897 - INFO - Successfully installed requests-html>=0.10.0
+2025-05-28 18:26:38,897 - INFO - Processing package 26/88: selenium>=4.1.0
+2025-05-28 18:26:38,897 - INFO - Installing selenium>=4.1.0...
+2025-05-28 18:26:46,299 - INFO - Successfully installed selenium>=4.1.0
+2025-05-28 18:26:46,299 - INFO - Processing package 27/88: mitmproxy>=8.0.0
+2025-05-28 18:26:46,299 - INFO - Installing mitmproxy>=8.0.0...
+2025-05-28 18:27:48,727 - INFO - Successfully installed mitmproxy>=8.0.0
+2025-05-28 18:27:48,727 - INFO - Processing package 28/88: sqlmap>=1.6.0
+2025-05-28 18:27:48,727 - INFO - Installing sqlmap>=1.6.0...
+2025-05-28 18:27:54,310 - INFO - Successfully installed sqlmap>=1.6.0
+2025-05-28 18:27:54,310 - INFO - Processing package 29/88: w3af-api-client>=1.7.6
+2025-05-28 18:27:54,310 - INFO - Installing w3af-api-client>=1.7.6...
+2025-05-28 18:27:55,902 - ERROR - Failed to install w3af-api-client>=1.7.6:   error: subprocess-exited-with-error
+  
+  × python setup.py egg_info did not run successfully.
+  │ exit code: 1
+  ╰─> [6 lines of output]
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "/tmp/pip-install-z2qn4hql/w3af-api-client_4f08ff6804f84663868ba008c309545a/setup.py", line 15, in <module>
+          from w3af_api_client import __VERSION__
+      ImportError: cannot import name '__VERSION__' from 'w3af_api_client' (unknown location)
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+error: metadata-generation-failed
+
+× Encountered error while generating package metadata.
+╰─> See above for output.
+
+note: This is an issue with the package mentioned above, not pip.
+hint: See above for details.
+
+2025-05-28 18:27:55,902 - INFO - Processing package 30/88: bs4>=0.0.1
+2025-05-28 18:27:55,902 - INFO - Installing bs4>=0.0.1...
+2025-05-28 18:27:58,541 - INFO - Successfully installed bs4>=0.0.1
+2025-05-28 18:27:58,541 - INFO - Processing package 31/88: html5lib>=1.1
+2025-05-28 18:27:58,541 - INFO - Installing html5lib>=1.1...
+2025-05-28 18:28:01,279 - INFO - Successfully installed html5lib>=1.1
+2025-05-28 18:28:01,279 - INFO - Processing package 32/88: passlib>=1.7.4
+2025-05-28 18:28:01,280 - INFO - Installing passlib>=1.7.4...
+2025-05-28 18:28:03,933 - INFO - Successfully installed passlib>=1.7.4
+2025-05-28 18:28:03,933 - INFO - Processing package 33/88: bcrypt>=3.2.0
+2025-05-28 18:28:03,933 - INFO - Installing bcrypt>=3.2.0...
+2025-05-28 18:28:06,523 - INFO - Successfully installed bcrypt>=3.2.0
+2025-05-28 18:28:06,523 - INFO - Processing package 34/88: python-ldap>=3.4.0
+2025-05-28 18:28:06,523 - INFO - Installing python-ldap>=3.4.0...
+2025-05-28 18:28:11,875 - ERROR - Failed to install python-ldap>=3.4.0:   error: subprocess-exited-with-error
+  
+  × Building wheel for python-ldap (pyproject.toml) did not run successfully.
+  │ exit code: 1
+  ╰─> [96 lines of output]
+      /tmp/pip-build-env-9d4295sn/overlay/local/lib/python3.12/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'test_suite'
+        warnings.warn(msg)
+      /tmp/pip-build-env-9d4295sn/overlay/local/lib/python3.12/dist-packages/setuptools/dist.py:759: SetuptoolsDeprecationWarning: License classifiers are deprecated.
+      !!
+      
+              ********************************************************************************
+              Please consider removing the following classifiers in favor of a SPDX license expression:
+      
+              License :: OSI Approved :: Python Software Foundation License
+      
+              See https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#license for details.
+              ********************************************************************************
+      
+      !!
+        self._finalize_license_expression()
+      running bdist_wheel
+      running build
+      running build_py
+      creating build/lib.linux-x86_64-cpython-312
+      copying Lib/ldapurl.py -> build/lib.linux-x86_64-cpython-312
+      copying Lib/ldif.py -> build/lib.linux-x86_64-cpython-312
+      creating build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/ldapobject.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/functions.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/asyncsearch.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/pkginfo.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/cidict.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/sasl.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/constants.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/dn.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/syncrepl.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/logger.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/filter.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/async.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/__init__.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/resiter.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/modlist.py -> build/lib.linux-x86_64-cpython-312/ldap
+      copying Lib/ldap/compat.py -> build/lib.linux-x86_64-cpython-312/ldap
+      creating build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/openldap.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/pwdpolicy.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/deref.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/sessiontrack.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/readentry.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/simple.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/pagedresults.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/sss.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/psearch.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/__init__.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/ppolicy.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/vlv.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      copying Lib/ldap/controls/libldap.py -> build/lib.linux-x86_64-cpython-312/ldap/controls
+      creating build/lib.linux-x86_64-cpython-312/ldap/extop
+      copying Lib/ldap/extop/dds.py -> build/lib.linux-x86_64-cpython-312/ldap/extop
+      copying Lib/ldap/extop/passwd.py -> build/lib.linux-x86_64-cpython-312/ldap/extop
+      copying Lib/ldap/extop/__init__.py -> build/lib.linux-x86_64-cpython-312/ldap/extop
+      creating build/lib.linux-x86_64-cpython-312/ldap/schema
+      copying Lib/ldap/schema/models.py -> build/lib.linux-x86_64-cpython-312/ldap/schema
+      copying Lib/ldap/schema/tokenizer.py -> build/lib.linux-x86_64-cpython-312/ldap/schema
+      copying Lib/ldap/schema/subentry.py -> build/lib.linux-x86_64-cpython-312/ldap/schema
+      copying Lib/ldap/schema/__init__.py -> build/lib.linux-x86_64-cpython-312/ldap/schema
+      creating build/lib.linux-x86_64-cpython-312/slapdtest
+      copying Lib/slapdtest/_slapdtest.py -> build/lib.linux-x86_64-cpython-312/slapdtest
+      copying Lib/slapdtest/__init__.py -> build/lib.linux-x86_64-cpython-312/slapdtest
+      running egg_info
+      writing Lib/python_ldap.egg-info/PKG-INFO
+      writing dependency_links to Lib/python_ldap.egg-info/dependency_links.txt
+      writing requirements to Lib/python_ldap.egg-info/requires.txt
+      writing top-level names to Lib/python_ldap.egg-info/top_level.txt
+      reading manifest file 'Lib/python_ldap.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      no previously-included directories found matching 'Doc/.build'
+      adding license file 'LICENCE'
+      writing manifest file 'Lib/python_ldap.egg-info/SOURCES.txt'
+      creating build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/README -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/ca.conf -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/ca.pem -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/client.conf -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/client.key -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/client.pem -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/gencerts.sh -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/gennssdb.sh -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/server.conf -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/server.key -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      copying Lib/slapdtest/certs/server.pem -> build/lib.linux-x86_64-cpython-312/slapdtest/certs
+      running build_ext
+      building '_ldap' extension
+      creating build/temp.linux-x86_64-cpython-312/Modules
+      x86_64-linux-gnu-gcc -fno-strict-overflow -Wsign-compare -DNDEBUG -g -O2 -Wall -fPIC -DHAVE_SASL -DHAVE_TLS -DLDAPMODULE_VERSION=3.4.4 "-DLDAPMODULE_AUTHOR=python-ldap project" "-DLDAPMODULE_LICENSE=Python style" -IModules -I/usr/include/python3.12 -c Modules/LDAPObject.c -o build/temp.linux-x86_64-cpython-312/Modules/LDAPObject.o
+      In file included from Modules/LDAPObject.c:3:
+      Modules/common.h:15:10: fatal error: lber.h: No such file or directory
+         15 | #include <lber.h>
+            |          ^~~~~~~~
+      compilation terminated.
+      error: command '/usr/bin/x86_64-linux-gnu-gcc' failed with exit code 1
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for python-ldap
+ERROR: Could not build wheels for python-ldap, which is required to install pyproject.toml-based projects
+
+2025-05-28 18:28:11,875 - INFO - Processing package 35/88: hashid>=3.1.4
+2025-05-28 18:28:11,875 - INFO - Installing hashid>=3.1.4...
+2025-05-28 18:28:15,161 - INFO - Successfully installed hashid>=3.1.4
+2025-05-28 18:28:15,161 - INFO - Processing package 36/88: pytest>=6.2.5
+2025-05-28 18:28:15,161 - INFO - Installing pytest>=6.2.5...
+2025-05-28 18:28:17,796 - INFO - Successfully installed pytest>=6.2.5
+2025-05-28 18:28:17,796 - INFO - Processing package 37/88: pytest-cov>=2.12.1
+2025-05-28 18:28:17,796 - INFO - Installing pytest-cov>=2.12.1...
+2025-05-28 18:28:20,497 - INFO - Successfully installed pytest-cov>=2.12.1
+2025-05-28 18:28:20,497 - INFO - Processing package 38/88: pefile>=2021.9.3
+2025-05-28 18:28:20,497 - INFO - Installing pefile>=2021.9.3...
+2025-05-28 18:28:23,713 - INFO - Successfully installed pefile>=2021.9.3
+2025-05-28 18:28:23,713 - INFO - Processing package 39/88: pyelftools>=0.28
+2025-05-28 18:28:23,713 - INFO - Installing pyelftools>=0.28...
+2025-05-28 18:28:26,347 - INFO - Successfully installed pyelftools>=0.28
+2025-05-28 18:28:26,347 - INFO - Processing package 40/88: capstone>=5.0.0
+2025-05-28 18:28:26,347 - INFO - Installing capstone>=5.0.0...
+2025-05-28 18:28:29,898 - INFO - Successfully installed capstone>=5.0.0
+2025-05-28 18:28:29,899 - INFO - Processing package 41/88: keystone-engine>=0.9.2
+2025-05-28 18:28:29,899 - INFO - Installing keystone-engine>=0.9.2...
+2025-05-28 18:28:33,043 - INFO - Successfully installed keystone-engine>=0.9.2
+2025-05-28 18:28:33,043 - INFO - Processing package 42/88: unicorn>=2.0.0
+2025-05-28 18:28:33,044 - INFO - Installing unicorn>=2.0.0...
+2025-05-28 18:28:37,711 - INFO - Successfully installed unicorn>=2.0.0
+2025-05-28 18:28:37,711 - INFO - Processing package 43/88: peepdf>=0.4.2
+2025-05-28 18:28:37,711 - INFO - Installing peepdf>=0.4.2...
+2025-05-28 18:28:51,169 - ERROR - Failed to install peepdf>=0.4.2:   error: subprocess-exited-with-error
+  
+  × python setup.py bdist_wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [157 lines of output]
+      /tmp/pip-install-3js_lof4/pillow_2ac5e633aa7d4137b12fb80f422e4502/setup.py:699: SyntaxWarning: invalid escape sequence '\s'
+        m = re.match('#define\s+ZLIB_VERSION\s+"([^"]*)"', line)
+      running bdist_wheel
+      running build
+      running build_py
+      creating build
+      creating build/lib.linux-x86_64-cpython-312
+      creating build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImagePath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageDraw2.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/FontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/XpmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GbrImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PaletteFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/XVThumbImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GribStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageMorph.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageCms.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageMath.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/TiffImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/TarIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/TiffTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/SpiderImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/WebPImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PalmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/_binary.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageStat.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/XbmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/BmpImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PdfImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PSDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/FliImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PcfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/IcoImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PpmImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PcxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/SgiImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/BufrStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageChops.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageOps.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PyAccess.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/CurImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/SunImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageTk.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/DdsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PsdImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageMode.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/FpxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/MicImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/_util.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PngImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageSequence.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/Image.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/DcxImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImtImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/FitsStubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/WmfImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageColor.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageFont.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/MspImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageWin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/TgaImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/EpsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GimpGradientFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PcdImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/FtexImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/BdfFontFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/JpegImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ContainerIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/IcnsImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GimpPaletteFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImagePalette.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ExifTags.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/__init__.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/Hdf5StubImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageFilter.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageEnhance.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GifImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/WalImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/OleFileIO.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/McIdasImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/Jpeg2KImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageDraw.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/features.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageShow.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageQt.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/IptcImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/JpegPresets.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/MpegImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/MpoImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/GdImageFile.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageGrab.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/ImageTransform.py -> build/lib.linux-x86_64-cpython-312/PIL
+      copying PIL/PixarImagePlugin.py -> build/lib.linux-x86_64-cpython-312/PIL
+      running egg_info
+      writing Pillow.egg-info/PKG-INFO
+      writing dependency_links to Pillow.egg-info/dependency_links.txt
+      writing top-level names to Pillow.egg-info/top_level.txt
+      reading manifest file 'Pillow.egg-info/SOURCES.txt'
+      reading manifest template 'MANIFEST.in'
+      warning: no files found matching '*.sh'
+      no previously-included directories found matching 'docs/_static'
+      warning: no previously-included files found matching '.coveragerc'
+      warning: no previously-included files found matching '.editorconfig'
+      warning: no previously-included files found matching '.landscape.yaml'
+      warning: no previously-included files found matching 'appveyor.yml'
+      warning: no previously-included files found matching 'build_children.sh'
+      warning: no previously-included files found matching 'tox.ini'
+      warning: no previously-included files matching '.git*' found anywhere in distribution
+      warning: no previously-included files matching '*.pyc' found anywhere in distribution
+      warning: no previously-included files matching '*.so' found anywhere in distribution
+      adding license file 'LICENSE'
+      writing manifest file 'Pillow.egg-info/SOURCES.txt'
+      copying PIL/OleFileIO-README.md -> build/lib.linux-x86_64-cpython-312/PIL
+      running build_ext
+      Traceback (most recent call last):
+        File "<string>", line 2, in <module>
+        File "<pip-setuptools-caller>", line 34, in <module>
+        File "/tmp/pip-install-3js_lof4/pillow_2ac5e633aa7d4137b12fb80f422e4502/setup.py", line 733, in <module>
+          setup(name=NAME,
+        File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup
+          return distutils.core.setup(**attrs)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 185, in setup
+          return run_commands(dist)
+                 ^^^^^^^^^^^^^^^^^^
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 201, in run_commands
+          dist.run_commands()
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 969, in run_commands
+          self.run_command(cmd)
+        File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+          super().run_command(command)
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+          cmd_obj.run()
+        File "/usr/lib/python3/dist-packages/wheel/bdist_wheel.py", line 368, in run
+          self.run_command("build")
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+          self.distribution.run_command(command)
+        File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+          super().run_command(command)
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+          cmd_obj.run()
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/command/build.py", line 131, in run
+          self.run_command(cmd_name)
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/cmd.py", line 318, in run_command
+          self.distribution.run_command(command)
+        File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1233, in run_command
+          super().run_command(command)
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 988, in run_command
+          cmd_obj.run()
+        File "/usr/lib/python3/dist-packages/setuptools/_distutils/command/build_ext.py", line 345, in run
+          self.build_extensions()
+        File "/tmp/pip-install-3js_lof4/pillow_2ac5e633aa7d4137b12fb80f422e4502/setup.py", line 510, in build_extensions
+          raise ValueError(
+      ValueError: jpeg is required unless explicitly disabled using --disable-jpeg, aborting
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+  ERROR: Failed building wheel for Pillow
+ERROR: Could not build wheels for Pillow, which is required to install pyproject.toml-based projects
+
+2025-05-28 18:28:51,169 - INFO - Processing package 44/88: PyQt5>=5.15.7
+2025-05-28 18:28:51,169 - INFO - Installing PyQt5>=5.15.7...
+2025-05-28 18:28:53,771 - INFO - Successfully installed PyQt5>=5.15.7
+2025-05-28 18:28:53,771 - INFO - Processing package 45/88: pyqtgraph>=0.12.4
+2025-05-28 18:28:53,771 - INFO - Installing pyqtgraph>=0.12.4...
+2025-05-28 18:28:57,578 - INFO - Successfully installed pyqtgraph>=0.12.4
+2025-05-28 18:28:57,578 - INFO - Processing package 46/88: matplotlib>=3.5.1
+2025-05-28 18:28:57,578 - INFO - Installing matplotlib>=3.5.1...
+2025-05-28 18:29:00,381 - INFO - Successfully installed matplotlib>=3.5.1
+2025-05-28 18:29:00,381 - INFO - Processing package 47/88: qdarkstyle>=3.1.0
+2025-05-28 18:29:00,381 - INFO - Installing qdarkstyle>=3.1.0...
+2025-05-28 18:29:04,268 - INFO - Successfully installed qdarkstyle>=3.1.0
+2025-05-28 18:29:04,268 - INFO - Processing package 48/88: qtmodern>=0.2.0
+2025-05-28 18:29:04,268 - INFO - Installing qtmodern>=0.2.0...
+2025-05-28 18:29:08,736 - INFO - Successfully installed qtmodern>=0.2.0
+2025-05-28 18:29:08,736 - INFO - Processing package 49/88: binwalk>=2.3.3
+2025-05-28 18:29:08,736 - INFO - Installing binwalk>=2.3.3...
+2025-05-28 18:29:09,818 - ERROR - Failed to install binwalk>=2.3.3: ERROR: Could not find a version that satisfies the requirement binwalk>=2.3.3 (from versions: 2.1.0)
+ERROR: No matching distribution found for binwalk>=2.3.3
+
+2025-05-28 18:29:09,818 - INFO - Processing package 50/88: py7zr>=0.19.0
+2025-05-28 18:29:09,818 - INFO - Installing py7zr>=0.19.0...
+2025-05-28 18:29:15,317 - INFO - Successfully installed py7zr>=0.19.0
+2025-05-28 18:29:15,317 - INFO - Processing package 51/88: pyelftools>=0.28
+2025-05-28 18:29:15,317 - INFO - Installing pyelftools>=0.28...
+2025-05-28 18:29:17,806 - INFO - Successfully installed pyelftools>=0.28
+2025-05-28 18:29:17,806 - INFO - Processing package 52/88: black>=21.12b0
+2025-05-28 18:29:17,806 - INFO - Installing black>=21.12b0...
+2025-05-28 18:29:20,409 - INFO - Successfully installed black>=21.12b0
+2025-05-28 18:29:20,410 - INFO - Processing package 53/88: flake8>=4.0.1
+2025-05-28 18:29:20,410 - INFO - Installing flake8>=4.0.1...
+2025-05-28 18:29:22,958 - INFO - Successfully installed flake8>=4.0.1
+2025-05-28 18:29:22,958 - INFO - Processing package 54/88: mypy>=0.930
+2025-05-28 18:29:22,958 - INFO - Installing mypy>=0.930...
+2025-05-28 18:29:25,463 - INFO - Successfully installed mypy>=0.930
+2025-05-28 18:29:25,463 - INFO - Processing package 55/88: pyserial>=3.5
+2025-05-28 18:29:25,463 - INFO - Installing pyserial>=3.5...
+2025-05-28 18:29:28,524 - INFO - Successfully installed pyserial>=3.5
+2025-05-28 18:29:28,524 - INFO - Processing package 56/88: minicom>=2.7.1
+2025-05-28 18:29:28,524 - INFO - Installing minicom>=2.7.1...
+2025-05-28 18:29:29,922 - ERROR - Failed to install minicom>=2.7.1: ERROR: Could not find a version that satisfies the requirement minicom>=2.7.1 (from versions: none)
+ERROR: No matching distribution found for minicom>=2.7.1
+
+2025-05-28 18:29:29,922 - INFO - Processing package 57/88: usb>=1.2.0
+2025-05-28 18:29:29,922 - INFO - Installing usb>=1.2.0...
+2025-05-28 18:29:30,987 - ERROR - Failed to install usb>=1.2.0: ERROR: Could not find a version that satisfies the requirement usb>=1.2.0 (from versions: 0.0.83.dev0)
+ERROR: No matching distribution found for usb>=1.2.0
+
+2025-05-28 18:29:30,988 - INFO - Processing package 58/88: pyusb>=1.2.1
+2025-05-28 18:29:30,988 - INFO - Installing pyusb>=1.2.1...
+2025-05-28 18:29:33,419 - INFO - Successfully installed pyusb>=1.2.1
+2025-05-28 18:29:33,419 - INFO - Processing package 59/88: pyvisa>=1.11.3
+2025-05-28 18:29:33,419 - INFO - Installing pyvisa>=1.11.3...
+2025-05-28 18:29:36,893 - INFO - Successfully installed pyvisa>=1.11.3
+2025-05-28 18:29:36,893 - INFO - Processing package 60/88: pyvisa-py>=0.5.2
+2025-05-28 18:29:36,893 - INFO - Installing pyvisa-py>=0.5.2...
+2025-05-28 18:29:40,170 - INFO - Successfully installed pyvisa-py>=0.5.2
+2025-05-28 18:29:40,170 - INFO - Processing package 61/88: pylibftdi>=0.19.0
+2025-05-28 18:29:40,170 - INFO - Installing pylibftdi>=0.19.0...
+2025-05-28 18:29:43,928 - INFO - Successfully installed pylibftdi>=0.19.0
+2025-05-28 18:29:43,929 - INFO - Processing package 62/88: pyspiflash>=0.5.0
+2025-05-28 18:29:43,929 - INFO - Installing pyspiflash>=0.5.0...
+2025-05-28 18:29:48,259 - INFO - Successfully installed pyspiflash>=0.5.0
+2025-05-28 18:29:48,259 - INFO - Processing package 63/88: python-magic>=0.4.24
+2025-05-28 18:29:48,259 - INFO - Installing python-magic>=0.4.24...
+2025-05-28 18:29:50,722 - INFO - Successfully installed python-magic>=0.4.24
+2025-05-28 18:29:50,722 - INFO - Processing package 64/88: lz4>=3.1.3
+2025-05-28 18:29:50,722 - INFO - Installing lz4>=3.1.3...
+2025-05-28 18:29:53,232 - INFO - Successfully installed lz4>=3.1.3
+2025-05-28 18:29:53,232 - INFO - Processing package 65/88: crcmod>=1.7
+2025-05-28 18:29:53,233 - INFO - Installing crcmod>=1.7...
+2025-05-28 18:29:57,771 - INFO - Successfully installed crcmod>=1.7
+2025-05-28 18:29:57,772 - INFO - Processing package 66/88: pycrc>=0.9.7
+2025-05-28 18:29:57,772 - INFO - Installing pycrc>=0.9.7...
+2025-05-28 18:30:01,209 - INFO - Successfully installed pycrc>=0.9.7
+2025-05-28 18:30:01,210 - INFO - Processing package 67/88: uefi-firmware-parser>=1.9.1
+2025-05-28 18:30:01,210 - INFO - Installing uefi-firmware-parser>=1.9.1...
+2025-05-28 18:30:02,674 - ERROR - Failed to install uefi-firmware-parser>=1.9.1: ERROR: Could not find a version that satisfies the requirement uefi-firmware-parser>=1.9.1 (from versions: none)
+ERROR: No matching distribution found for uefi-firmware-parser>=1.9.1
+
+2025-05-28 18:30:02,674 - INFO - Processing package 68/88: chipsec>=1.7.9
+2025-05-28 18:30:02,674 - INFO - Installing chipsec>=1.7.9...
+2025-05-28 18:30:10,060 - INFO - Successfully installed chipsec>=1.7.9
+2025-05-28 18:30:10,060 - INFO - Processing package 69/88: adb-shell>=0.3.2
+2025-05-28 18:30:10,060 - INFO - Installing adb-shell>=0.3.2...
+2025-05-28 18:30:14,224 - INFO - Successfully installed adb-shell>=0.3.2
+2025-05-28 18:30:14,224 - INFO - Processing package 70/88: libusb1>=1.9.3
+2025-05-28 18:30:14,224 - INFO - Installing libusb1>=1.9.3...
+2025-05-28 18:30:17,610 - INFO - Successfully installed libusb1>=1.9.3
+2025-05-28 18:30:17,610 - INFO - Processing package 71/88: frida>=15.1.17
+2025-05-28 18:30:17,610 - INFO - Installing frida>=15.1.17...
+2025-05-28 18:30:25,927 - INFO - Successfully installed frida>=15.1.17
+2025-05-28 18:30:25,927 - INFO - Processing package 72/88: frida-tools>=10.4.1
+2025-05-28 18:30:25,927 - INFO - Installing frida-tools>=10.4.1...
+2025-05-28 18:30:35,087 - INFO - Successfully installed frida-tools>=10.4.1
+2025-05-28 18:30:35,087 - INFO - Processing package 73/88: r2pipe>=1.7.0
+2025-05-28 18:30:35,087 - INFO - Installing r2pipe>=1.7.0...
+2025-05-28 18:30:39,235 - INFO - Successfully installed r2pipe>=1.7.0
+2025-05-28 18:30:39,235 - INFO - Processing package 74/88: pyghidra>=0.2.0
+2025-05-28 18:30:39,235 - INFO - Installing pyghidra>=0.2.0...
+2025-05-28 18:30:42,819 - INFO - Successfully installed pyghidra>=0.2.0
+2025-05-28 18:30:42,819 - INFO - Processing package 75/88: angr>=9.2.6
+2025-05-28 18:30:42,820 - INFO - Installing angr>=9.2.6...
+2025-05-28 18:31:27,859 - INFO - Successfully installed angr>=9.2.6
+2025-05-28 18:31:27,859 - INFO - Processing package 76/88: unicorn>=2.0.0
+2025-05-28 18:31:27,860 - INFO - Installing unicorn>=2.0.0...
+2025-05-28 18:31:30,675 - INFO - Successfully installed unicorn>=2.0.0
+2025-05-28 18:31:30,675 - INFO - Processing package 77/88: capstone>=5.0.0
+2025-05-28 18:31:30,675 - INFO - Installing capstone>=5.0.0...
+2025-05-28 18:31:33,711 - INFO - Successfully installed capstone>=5.0.0
+2025-05-28 18:31:33,712 - INFO - Processing package 78/88: keystone-engine>=0.9.2
+2025-05-28 18:31:33,712 - INFO - Installing keystone-engine>=0.9.2...
+2025-05-28 18:31:36,497 - INFO - Successfully installed keystone-engine>=0.9.2
+2025-05-28 18:31:36,498 - INFO - Processing package 79/88: i2c-tools>=4.3
+2025-05-28 18:31:36,498 - INFO - Installing i2c-tools>=4.3...
+2025-05-28 18:31:38,143 - ERROR - Failed to install i2c-tools>=4.3: ERROR: Could not find a version that satisfies the requirement i2c-tools>=4.3 (from versions: none)
+ERROR: No matching distribution found for i2c-tools>=4.3
+
+2025-05-28 18:31:38,143 - INFO - Processing package 80/88: spidev>=3.5
+2025-05-28 18:31:38,143 - INFO - Installing spidev>=3.5...
+2025-05-28 18:31:46,056 - INFO - Successfully installed spidev>=3.5
+2025-05-28 18:31:46,056 - INFO - Processing package 81/88: python-can>=4.0.0
+2025-05-28 18:31:46,056 - INFO - Installing python-can>=4.0.0...
+2025-05-28 18:31:50,309 - INFO - Successfully installed python-can>=4.0.0
+2025-05-28 18:31:50,310 - INFO - Processing package 82/88: python-ftdi>=1.3.0
+2025-05-28 18:31:50,310 - INFO - Installing python-ftdi>=1.3.0...
+2025-05-28 18:31:52,061 - ERROR - Failed to install python-ftdi>=1.3.0: ERROR: Could not find a version that satisfies the requirement python-ftdi>=1.3.0 (from versions: none)
+ERROR: No matching distribution found for python-ftdi>=1.3.0
+
+2025-05-28 18:31:52,061 - INFO - Processing package 83/88: python-evtx>=0.7.4
+2025-05-28 18:31:52,061 - INFO - Installing python-evtx>=0.7.4...
+2025-05-28 18:31:57,176 - INFO - Successfully installed python-evtx>=0.7.4
+2025-05-28 18:31:57,176 - INFO - Processing package 84/88: python-registry>=1.3.1
+2025-05-28 18:31:57,176 - INFO - Installing python-registry>=1.3.1...
+2025-05-28 18:32:00,879 - INFO - Successfully installed python-registry>=1.3.1
+2025-05-28 18:32:00,879 - INFO - Processing package 85/88: pypykatz>=0.5.2
+2025-05-28 18:32:00,879 - INFO - Installing pypykatz>=0.5.2...
+2025-05-28 18:32:09,388 - INFO - Successfully installed pypykatz>=0.5.2
+2025-05-28 18:32:09,388 - INFO - Processing package 86/88: volatility3>=2.0.0
+2025-05-28 18:32:09,388 - INFO - Installing volatility3>=2.0.0...
+2025-05-28 18:32:13,901 - INFO - Successfully installed volatility3>=2.0.0
+2025-05-28 18:32:13,901 - INFO - Processing package 87/88: sphinx>=4.2.0
+2025-05-28 18:32:13,901 - INFO - Installing sphinx>=4.2.0...
+2025-05-28 18:32:16,886 - INFO - Successfully installed sphinx>=4.2.0
+2025-05-28 18:32:16,886 - INFO - Processing package 88/88: sphinx-rtd-theme>=1.0.0
+2025-05-28 18:32:16,886 - INFO - Installing sphinx-rtd-theme>=1.0.0...
+2025-05-28 18:32:20,023 - INFO - Successfully installed sphinx-rtd-theme>=1.0.0
+2025-05-28 18:32:20,023 - INFO - 
+Installation Summary:
+2025-05-28 18:32:20,023 - INFO - Total packages: 88
+2025-05-28 18:32:20,023 - INFO - Successfully installed: 79
+2025-05-28 18:32:20,023 - INFO - Failed to install: 9
+2025-05-28 18:32:20,024 - WARNING - 
+Failed packages:
+2025-05-28 18:32:20,024 - WARNING - - w3af-api-client>=1.7.6
+2025-05-28 18:32:20,024 - WARNING - - python-ldap>=3.4.0
+2025-05-28 18:32:20,024 - WARNING - - peepdf>=0.4.2
+2025-05-28 18:32:20,024 - WARNING - - binwalk>=2.3.3
+2025-05-28 18:32:20,024 - WARNING - - minicom>=2.7.1
+2025-05-28 18:32:20,024 - WARNING - - usb>=1.2.0
+2025-05-28 18:32:20,024 - WARNING - - uefi-firmware-parser>=1.9.1
+2025-05-28 18:32:20,024 - WARNING - - i2c-tools>=4.3
+2025-05-28 18:32:20,024 - WARNING - - python-ftdi>=1.3.0
+2025-05-28 18:32:20,024 - INFO - 
+Detailed logs saved to: /home/outbackelectronics/Hack_Attack/install_errors.log
