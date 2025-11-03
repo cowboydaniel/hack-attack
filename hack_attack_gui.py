@@ -324,6 +324,28 @@ class HackAttackGUI(QMainWindow):
             layout.setSpacing(0)
             layout.addWidget(self.network_analysis_gui)
             
+        elif title == "Firmware & OS Analysis":
+            from modules.firmware_analysis import FirmwareAnalysisGUI
+            
+            # Create and add the FirmwareAnalysisGUI
+            self.firmware_analysis_gui = FirmwareAnalysisGUI()
+            
+            # Remove margins and add to layout
+            layout.setContentsMargins(0, 0, 0, 0)
+            layout.setSpacing(0)
+            layout.addWidget(self.firmware_analysis_gui)
+            
+        elif title == "Authentication & Password Testing":
+            from modules.auth_testing import AuthTestingGUI
+            
+            # Create and add the AuthTestingGUI
+            self.auth_testing_gui = AuthTestingGUI()
+            
+            # Remove margins and add to layout
+            layout.setContentsMargins(0, 0, 0, 0)
+            layout.setSpacing(0)
+            layout.addWidget(self.auth_testing_gui)
+            
         else:
             # Default banner for other modules
             banner = QLabel("🚀 Coming Soon")
