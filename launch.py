@@ -27,13 +27,17 @@ def restart_with_pkexec():
     """Restart the script with pkexec for elevated privileges."""
     try:
         script_path = os.path.abspath(__file__)
-        cmd = ['pkexec', sys.executable, script_path] + sys.argv[1:]
+        cmd = ['pkexec', '--user', os.environ.get('USER', 'root'), 'env', 
+               f'PYTHONPATH={os.environ.get("PYTHONPATH", "")}',
+               'PATH=' + os.environ.get('PATH', ''),
+               'HOME=' + os.environ.get('HOME', ''),
+               'DISPLAY=' + os.environ.get('DISPLAY', ':0'),
+               'XAUTHORITY=' + os.environ.get('XAUTHORITY', str(Path.home() / '.Xauthority')),
+               'DBUS_SESSION_BUS_ADDRESS=' + os.environ.get('DBUS_SESSION_BUS_ADDRESS', ''),
+               sys.executable, script_path] + sys.argv[1:]
         
         # Set up environment variables to preserve GUI settings
         env = os.environ.copy()
-        env['DISPLAY'] = os.environ.get('DISPLAY', ':0')
-        env['XAUTHORITY'] = os.environ.get('XAUTHORITY', str(Path.home() / '.Xauthority'))
-        env['DBUS_SESSION_BUS_ADDRESS'] = os.environ.get('DBUS_SESSION_BUS_ADDRESS', '')
         
         logger.info("Restarting with elevated privileges...")
         os.execvpe('pkexec', cmd, env)
@@ -43,13 +47,14 @@ def restart_with_pkexec():
         sys.exit(1)
 
 def main():
-    # Check if we need root privileges
-    if not is_running_as_root():
-        restart_with_pkexec()
-        return
+    # Try to run without root first
+    # Add user site-packages to path if not already there
+    user_site = os.path.expanduser('~/.local/lib/python3.12/site-packages')
+    if user_site not in sys.path:
+        sys.path.append(user_site)
     
-    # Now we have root privileges, import and start the application
-    from PyQt6.QtWidgets import QApplication
+    # Import and start the application
+    from PySide6.QtWidgets import QApplication
     from hack_attack_gui import HackAttackGUI
     
     try:
